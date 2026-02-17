@@ -20,3 +20,12 @@ E realiza contagem crescente ou regressiva.
 - Condições (if/else)
 - Manipulação de DOM
 - Conversão de tipos (Number)
+
+
+## 📸 Preview
+
+### 🔹 Tela Inicial
+![Tela Inicial](./src/assets/images/preview-inicial.png)
+
+### 🔹 Resultado da Contagem
+![Resultado](./src/assets/images/preview-final.png)

@@ -1,0 +1,68 @@
+/*
+Main Css do Projeto
+*/
+
+#layout {
+    width: calc(100% - 30px);
+    max-width: 1280px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    /*Conversao de pixels para rem*/
+    font-family: "poppins", sans-serif;
+    font: normal;
+    font-size: large;
+
+}
+
+body {
+    background: #9494b3;
+}
+
+#menu {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin: auto;
+    width: 500px;
+    box-shadow: 3px 3px 10px;
+}
+
+
+fieldset {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    row-gap: 10px;
+    column-gap: 1px;
+    align-items: center;
+}
+
+fieldset input {
+    border-radius: 4px;
+    width: 200px;
+}
+
+#btnContar {
+    justify-self: center;
+    grid-column: 1/-1;
+    width: 200px;
+    cursor: pointer;
+    padding: 2px;
+}
+
+#btnContar:hover {
+    background: rgb(0, 195, 255);
+}
+
+
+header {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    font-style: italic;
+}

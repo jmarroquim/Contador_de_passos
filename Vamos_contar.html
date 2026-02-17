@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Exercicos 16 Vamos contar</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./src/Css/main.css">
+</head>
+
+<body>
+    <div id="layout">
+
+
+        <header>
+            <h1>Vamos Contar</h1>
+        </header>
+
+        <main>
+            <section id="menu">
+                <div>
+                    <fieldset>
+                        <legend>Vamos iniciar a contagem, por favor preencha os dados:</legend>
+
+                        <label for="numInicio">Inicio:</label>
+                        <input type="number" name="numInicio" id="numInicio">
+
+                        <label for="numFim">Fim:</label>
+                        <input type="number" name="numFim" id="numFim">
+
+                        <label for="numPasso">Passos:</label>
+                        <input type="number" name="numPasso" id="numPasso">
+
+                        <input type="button" id="btnContar" name="btnContar" value="Contar" onclick="contar()">
+
+
+                    </fieldset>
+                </div>
+
+
+                <div id="res">
+                    <p>Resultado da Contagem:</p>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div>
+                <p>&copy; Joel Marroquim</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="./src/js/main.js"></script>
+
+</body>
+
+</html>
